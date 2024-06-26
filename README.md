@@ -1,66 +1,20 @@
-## Foundry
+# Code Laboratory
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+This is where I try out stuff and experiment with ideas.
 
-Foundry consists of:
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+## List of Stuff to Try Out
+1. [**abi.encode**](https://docs.soliditylang.org/en/v0.8.26/cheatsheet.html#abi-encoding-and-decoding-functions): together with the whole family of related functions
+   
+2. [**call, staticcall, delegatecall**](https://docs.soliditylang.org/en/v0.8.26/types.html#members-of-addresses): the possibilities and implications, eg: contracts chain-calling each other, call-back contracts, reentrancy attack contracts
+   
+3. [**math and cryptography stuff**](https://docs.soliditylang.org/en/v0.8.26/cheatsheet.html#mathematical-and-cryptographic-functions): keccak256, sha256, and related functions
 
-## Documentation
 
-https://book.getfoundry.sh/
+## abi.encode (and its family of related functions)
 
-## Usage
+Sleepy. Will decide what exactly to play around with after some sleep.
 
-### Build
+## call, staticcall, delegatecall
 
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+Lotsa possibilities here. Implications are enormous. Will decide again after some sleep.
