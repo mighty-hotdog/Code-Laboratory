@@ -12,7 +12,7 @@
 // The "function signature" is a string that defines the function name & parameters.
 // Let's look at this
 
-pragma solidity ^0.8.18;
+pragma solidity 0.8.24;
 
 contract CallAnything {
     address public s_someAddress;
